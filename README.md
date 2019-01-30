@@ -11,4 +11,6 @@ sshpass -p {Contraseña} ssh {Usuario}@{IP} {Comandos}
 
 La contraseña de Luis es: Estufita
 
-
+Para romper el Script de luis:
+Entra rapido y pon
+pkill zenity
