@@ -36,5 +36,10 @@ Primero usar ps aux | grep 'pts' para saber que pts estan(Casi siempre pts/0 par
 Segundo realizar:
 {Comando} > /dev/pts{Num}
 
+Si queremos usar cosas que le aparezcan en el entorno gráfico
 
+export DISPLAY=:0.0
+
+Luego ejecutar los comandos respectivos
+Ej:Firefox
 
