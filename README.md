@@ -26,3 +26,15 @@ Para echar a alguien:
 Who
 
 pkill -9 -t pts/{Num}
+
+Para poner teclas grandes en una pantalla
+figlet {Palabra}
+
+Si estan dentro por ssh o tu estas dentro de su terminal, para redirigir estos comandos:
+
+Primero usar ps aux | grep 'pts' para saber que pts estan(Casi siempre pts/0 para anfitrion y pts/1 para invitado),
+Segundo realizar:
+{Comando} > /dev/pts{Num}
+
+
+
