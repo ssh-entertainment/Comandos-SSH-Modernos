@@ -14,3 +14,15 @@ La contraseña de Luis es: Estufita
 Para romper el Script de luis:
 Entra rapido y pon
 pkill zenity
+
+Para poner colorines en la terminal:
+apt-get install lolcat
+
+Modo de empleo:
+
+echo/yes {palabra} | lolcat
+
+Para echar a alguien:
+Who
+
+pkill -9 -t pts/{Num}
