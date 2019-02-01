@@ -43,3 +43,12 @@ export DISPLAY=:0.0
 Luego ejecutar los comandos respectivos
 Ej:Firefox
 
+Para poner un gato o un perro con un cartelito:
+apt-get install boxes
+
+Metodo de uso echo/yes {Mensaje}|boxes -d {cat/dog}
+
+Bucle infinito:
+
+while true;do figlet "Hola" | boxes -d cat | lolcat ;done
+
