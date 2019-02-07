@@ -1,0 +1,15 @@
+#!/bin/bash
+
+while true; do
+
+
+	for a in {1..2};do xdotool mousemove_relative --polar 45 40;done
+
+	for a in {1..2};do xdotool mousemove_relative --polar 225 40;done
+
+	for a in {1..2};do xdotool mousemove_relative --polar 320 40;done
+
+	for a in {1..2};do xdotool mousemove_relative --polar 140 40;done
+
+
+done
