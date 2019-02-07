@@ -1,0 +1,29 @@
+#!/bin/bash
+
+export DISPLAY=:0.0
+
+A=$(ps aux | grep pts | grep bash | grep -v grep | wc -l)
+A=$(($A-1))
+B=$(($A+10))
+
+while true; do
+
+	gnome-terminal
+
+	sleep 0.3
+
+	while true; do figlet "Fuck You" | boxes -d cat | lolcat ;done > /dev/pts/$A &
+
+	if [ $A -ge $B  ]; then
+
+		break
+
+	fi
+
+	#echo "echo $A" > /dev/pts/$A
+
+
+	A=$(($A+1))
+
+
+done
