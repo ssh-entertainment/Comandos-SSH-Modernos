@@ -36,10 +36,10 @@ ssh_puerto   = 22 # O el puerto SSH que use nuestro servidor
 
 Comando_por_ssh(ssh_servidor,ssh_puerto,ssh_usuario,ssh_clave,comando) 
 
-while true:
+while True:
 
 	Decision=input("	¿Quieres introducir otro comando?	").upper()
-	
+
 	if Decision=='SI':
 
 		comando=input("Comando:		 ")
