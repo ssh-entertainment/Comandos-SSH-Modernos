@@ -3,11 +3,10 @@ import paramiko
 import os
  
 comando=input("¿Cual es el comando que quieres realizar? ")
-
+ssh_servidor=input("¿Cual es la IP? ")
+ssh_usuario=input("¿Cual es el usuario? ")
+ssh_clave=input("¿Cual es la contraseña? ")
 # Datos para la conexión SSH
-ssh_servidor = '172.22.2.44'
-ssh_usuario  = 'luis'
-ssh_clave    = '524680.'
 ssh_puerto   = 22 # O el puerto SSH que use nuestro servidor
 '''comando      = 'yes hola > /dev/pts/0' '''# el comando que vamos a ejecutar en el servidor
  
